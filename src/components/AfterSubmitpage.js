@@ -15,7 +15,7 @@ function Hey(){
       <Grid className={classes.headingBoxInner}>
         <img className={classes.logoIcon} src={Icon} alt="icon" />
         <Typography className={classes.mainHeading}>
-          SPACEOID EARLY ACCESS FORM -test
+          SPACEOID APPLICATION STATUS
         </Typography>
       </Grid>
       </Grid>

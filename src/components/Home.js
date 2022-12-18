@@ -22,7 +22,7 @@ export default function Home() {
         <Grid className={classes.headingBoxInner}>
           <img className={classes.logoIcon} src={Icon} alt="icon" />
           <Typography className={classes.mainHeading}>
-            SPACEOID EARLY ACCESS FORM -test
+            SPACEOID EARLY ACCESS FORM 
           </Typography>
         </Grid>
         <Grid className={classes.btnBox}>
