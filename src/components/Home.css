@@ -1,0 +1,43 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px ;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+a.discord {
+    color: white;
+  }
+  
+  
+  
+  a.twitter {
+    color: white;
+  }
+  
+  a.instagram {
+    color: white;
+  }
+
+.social-container{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.social-container-child {
+    margin-right: 30px;
+} 
+.social-container:first-child {
+    margin-right: 20px;
+    margin-left:20px;
+}
+.instagram{
+    margin-right: 5px;
+    margin-left: 5px;
+}
