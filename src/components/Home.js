@@ -1,6 +1,8 @@
 import React from "react";
+
 import { Grid, Button, Container, Typography } from "@mui/material";
 import Icon from "../images/LOGO.png";
+import { useNavigate } from "react-router-dom";
 import { listData } from "./Common";
 import { useStyles } from "./css/HomeCss";
 import SocialFollow from "./SocialFollow";
@@ -9,8 +11,10 @@ import "./Home.css"
 
 
 export default function Home() {
-
+  const navigate = useNavigate();
+  
   const { classes } = useStyles();
+ 
 
   return (
     <Container maxWidth={false} className={classes.paperContainer}>
@@ -42,9 +46,14 @@ export default function Home() {
           </Grid>
         ))}
         <Grid className={classes.submitBtnBox}>
-          <Button variant="contained" className={classes.submitBtn}>
+        
+          
+          <Button variant="contained" onClick={() => navigate("/nextpage")} className={classes.submitBtn}>
             submit
           </Button>
+         
+        
+          
         </Grid>
       </Grid>
       <Grid>

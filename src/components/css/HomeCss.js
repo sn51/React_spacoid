@@ -43,6 +43,19 @@ export const useStyles = makeStyles()((theme) => {
         flexDirection: "row",
         justifyContent: "center",
       },
+      content : {
+        //font-family: Switzer;
+        display:"flex",
+         padding: "50px 20px",
+         //marginTop:"20px",
+         fontSize: "15px",
+         fontWeight: "400",
+         lineHeight: "32px",
+         justifyContent: "center",
+         color: "#FFFFFF",
+         lineSpacing: "0.03rem",
+
+      },
       submitBtn: {
         background: "transparent",
         borderRadius: "25px",
@@ -106,6 +119,11 @@ export const useStyles = makeStyles()((theme) => {
             height: '49px',
             width: '49px',
         },
+      },
+      vectorIcon:{
+        display:"flex",
+        justifyContent:"center",
+        margin:"50px"
       },
       mainHeading: {
         margin: "auto 50px",
