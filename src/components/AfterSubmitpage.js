@@ -5,6 +5,8 @@ import Icon from "../images/LOGO.png";
 import vector from "../images/Vector.png"
 import "./Home.css";
 import SocialFollow from "./SocialFollow";
+import {getCurrentDate} from "./getDate"; 
+import { getCurrentTime } from "./getTime";
 
 function Hey(){
   const { classes } = useStyles();
@@ -18,6 +20,11 @@ function Hey(){
           SPACEOID APPLICATION STATUS
         </Typography>
       </Grid>
+      <Grid className="classes.headingBox">
+        <Typography className={classes.Heading}>
+          Today's date is {getCurrentDate()} and Time is {getCurrentTime()}
+          </Typography>
+        </Grid>
       </Grid>
       <Grid className={classes.bottomBox}>
         <Grid className={classes.vectorIcon}> 

@@ -7,7 +7,11 @@ import { listData } from "./Common";
 import { useStyles } from "./css/HomeCss";
 import SocialFollow from "./SocialFollow";
 //import { style } from "@mui/system";
-import "./Home.css"
+import "./Home.css";
+
+import {getCurrentDate} from "./getDate"; 
+import { getCurrentTime } from "./getTime";
+
 
 
 export default function Home() {
@@ -24,12 +28,27 @@ export default function Home() {
           <Typography className={classes.mainHeading}>
             SPACEOID EARLY ACCESS FORM 
           </Typography>
+
         </Grid>
+        <Grid className="classes.headingBox">
+        <Typography className={classes.Heading}>
+          Today's date is {getCurrentDate()} and Time is {getCurrentTime()}
+          </Typography>
+        </Grid>
+        
         <Grid className={classes.btnBox}>
           <Button variant="contained" className={classes.statusBtn}>
             Status
           </Button>
+          
         </Grid>
+        {/* <Grid>
+          <Typography className={classes.Heading}>
+          Today's date is {getCurrentDate()} and Time is {getCurrentTime()}
+          </Typography>
+          
+        </Grid> */}
+        
       </Grid>
 
       <Grid className={classes.bottomBox}>
