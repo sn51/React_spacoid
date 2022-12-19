@@ -20,12 +20,12 @@ function Hey(){
           SPACEOID APPLICATION STATUS
         </Typography>
       </Grid>
-      <Grid className={classes.headingBox}>
+    </Grid>
+    <Grid className={classes.headingBox1}>
         <Typography className={classes.Heading}>
           Today's date is {getCurrentDate()} and Time is {getCurrentTime()}
           </Typography>
         </Grid>
-      </Grid>
       <Grid className={classes.bottomBox}>
         <Grid className={classes.vectorIcon}> 
         <img src={vector} alt="img"/>

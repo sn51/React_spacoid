@@ -30,17 +30,12 @@ export default function Home() {
           </Typography>
 
         </Grid>
-        <Grid className={classes.headingBox}>
-        <Typography className={classes.Heading}>
-          Today's date is {getCurrentDate()} and Time is {getCurrentTime()}
-          </Typography>
-        </Grid>
+        
         
         <Grid className={classes.btnBox}>
           <Button variant="contained" className={classes.statusBtn}>
             Status
           </Button>
-          
         </Grid>
         {/* <Grid>
           <Typography className={classes.Heading}>
@@ -50,6 +45,11 @@ export default function Home() {
         </Grid> */}
         
       </Grid>
+      <Grid className={classes.headingBox1}>
+        <Typography className={classes.Heading}>
+          Today's date is {getCurrentDate()} and Time is {getCurrentTime()}
+          </Typography>
+        </Grid>
 
       <Grid className={classes.bottomBox}>
         

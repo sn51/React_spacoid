@@ -106,6 +106,15 @@ export const useStyles = makeStyles()((theme) => {
             padding: "10px",
         },
       },
+      headingBox1: {
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "right",
+        padding: "10px 50px",
+        [theme.breakpoints.down("md")]: {
+            padding: "10px",
+        },
+      },
       btnBox: {
         margin: "auto 15px",
         [theme.breakpoints.down("md")]: {
