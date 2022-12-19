@@ -20,7 +20,7 @@ function Hey(){
           SPACEOID APPLICATION STATUS
         </Typography>
       </Grid>
-      <Grid className="classes.headingBox">
+      <Grid className={classes.headingBox}>
         <Typography className={classes.Heading}>
           Today's date is {getCurrentDate()} and Time is {getCurrentTime()}
           </Typography>
